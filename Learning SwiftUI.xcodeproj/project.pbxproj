@@ -14,6 +14,7 @@
 		639BE5882B96216F00BDF165 /* Learning_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639BE5872B96216F00BDF165 /* Learning_SwiftUITests.swift */; };
 		639BE5922B96216F00BDF165 /* Learning_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639BE5912B96216F00BDF165 /* Learning_SwiftUIUITests.swift */; };
 		639BE5942B96216F00BDF165 /* Learning_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639BE5932B96216F00BDF165 /* Learning_SwiftUIUITestsLaunchTests.swift */; };
+		639BE5A22B9727F900BDF165 /* TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639BE5A12B9727F900BDF165 /* TextStyles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		639BE58D2B96216F00BDF165 /* Learning SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		639BE5912B96216F00BDF165 /* Learning_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		639BE5932B96216F00BDF165 /* Learning_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		639BE5A12B9727F900BDF165 /* TextStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		639BE5752B96216C00BDF165 /* Learning SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				639BE5A02B9727D900BDF165 /* styles */,
 				639BE5762B96216C00BDF165 /* Learning_SwiftUIApp.swift */,
 				639BE5782B96216C00BDF165 /* ContentView.swift */,
 				639BE57A2B96216E00BDF165 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				639BE5932B96216F00BDF165 /* Learning_SwiftUIUITestsLaunchTests.swift */,
 			);
 			path = "Learning SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+		639BE5A02B9727D900BDF165 /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				639BE5A12B9727F900BDF165 /* TextStyles.swift */,
+			);
+			path = styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				639BE5A22B9727F900BDF165 /* TextStyles.swift in Sources */,
 				639BE5792B96216C00BDF165 /* ContentView.swift in Sources */,
 				639BE5772B96216C00BDF165 /* Learning_SwiftUIApp.swift in Sources */,
 			);
