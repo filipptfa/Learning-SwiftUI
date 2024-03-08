@@ -9,8 +9,29 @@ import SwiftUI
 
 struct _5: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            HStack{
+                Image(systemName: "calendar")
+                    .resizable()
+                    .frame(width: 24, height: 24)
+                    .padding(.trailing, 16)
+                Text.displayLarge("08")
+                VStack{
+                    Text("Month Name")
+                    Text("2024")
+                }
+            }
+            .foregroundColor(.white)
+            .padding(.all, 24)
+            .background(Color(hex: "73876b"))
+            .cornerRadius(16)
+            .shadow(radius: 16)
+            
+        }
+        .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+        .background(Color(hex: "d9e0bf"))
     }
+       
 }
 
 #Preview {

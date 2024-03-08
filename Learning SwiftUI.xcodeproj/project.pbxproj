@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		632573F42B9BA3AB001E4CE4 /* 05.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632573F32B9BA3AB001E4CE4 /* 05.swift */; };
 		638FCE812B977B2A0023313D /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638FCE802B977B2A0023313D /* ShapesView.swift */; };
 		639BE5772B96216C00BDF165 /* Learning_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639BE5762B96216C00BDF165 /* Learning_SwiftUIApp.swift */; };
 		639BE5792B96216C00BDF165 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639BE5782B96216C00BDF165 /* ContentView.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		632573F32B9BA3AB001E4CE4 /* 05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 05.swift; sourceTree = "<group>"; };
 		638FCE802B977B2A0023313D /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
 		639BE5732B96216C00BDF165 /* Learning SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		639BE5762B96216C00BDF165 /* Learning_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_SwiftUIApp.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				639BE57A2B96216E00BDF165 /* Assets.xcassets */,
 				639BE57C2B96216E00BDF165 /* Preview Content */,
 				638FCE802B977B2A0023313D /* ShapesView.swift */,
+				632573F32B9BA3AB001E4CE4 /* 05.swift */,
 			);
 			path = "Learning SwiftUI";
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			files = (
 				639BE5A22B9727F900BDF165 /* TextStyles.swift in Sources */,
 				63F9179F2B9B5ED300A3DF3F /* Colors.swift in Sources */,
+				632573F42B9BA3AB001E4CE4 /* 05.swift in Sources */,
 				639BE5792B96216C00BDF165 /* ContentView.swift in Sources */,
 				638FCE812B977B2A0023313D /* ShapesView.swift in Sources */,
 				639BE5772B96216C00BDF165 /* Learning_SwiftUIApp.swift in Sources */,

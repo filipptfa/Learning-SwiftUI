@@ -9,7 +9,7 @@ import SwiftUI
 
 extension Text {
     static func displayLarge(_ text: String) -> Text {
-        return Text(text).font(.system(size: 40, weight: .medium))
+        return Text(text).font(.system(size: 48, weight: .medium))
     }
     static func bodyLarge(_ text: String) -> Text {
         return Text(text).font(.system(size: 16, weight: .regular))
