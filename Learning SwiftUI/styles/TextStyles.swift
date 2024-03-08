@@ -15,4 +15,11 @@ extension Text {
         return Text(text).font(.system(size: 16, weight: .regular))
     }
     
+    func vyshkilColor() -> some View {
+        return self.background()
+        /*
+         find a way to colorise my font
+         */
+    }
+    
 }
